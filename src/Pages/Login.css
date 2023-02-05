@@ -1,0 +1,32 @@
+ .Login .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.Login .card-body {
+    text-align: center;
+ }
+
+ .Login img{
+    width: 60px;
+    height: 60px;
+ }
+
+.Login input{
+    margin-bottom: 1rem;
+}
+
+.Login button{
+    width: 100%;
+    font-size: 16px;
+    align-items: center;
+    color:white;
+    font-weight: 600;
+    background-color: #734b6d;
+}
+.Login button:hover{
+    color: white;
+    background-color: #734b6d;
+}
