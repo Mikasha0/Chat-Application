@@ -22,6 +22,9 @@ export default function Login() {
               />
               <button className="btn">Login</button>
             </div>
+            <p>
+              You don't have an account? <a href="">Register</a>
+            </p>
           </div>
         </div>
       </div>

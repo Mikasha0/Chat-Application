@@ -16,6 +16,13 @@
 
 .Login input{
     margin-bottom: 1rem;
+    padding:1rem;
+    border:none;
+    border-bottom: 1px solid #a7bcff ;
+}
+
+.Login .form-control{
+    font-size:12px;
 }
 
 .Login button{
@@ -29,4 +36,9 @@
 .Login button:hover{
     color: white;
     background-color: #734b6d;
+}
+
+.Login .card p{
+    text-align: center;
+    font-size: 12px;
 }
