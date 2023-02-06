@@ -9,17 +9,7 @@ export default function Navbar() {
         <span>CircleConnect</span>
       </div>
       <div className="user align-items-center">
-        <img
-          className="circular-image"
-          src="../Image/img1.jpg"
-          style={{
-            width: "20px",
-            height: "20px",
-            borderRadius: "50%",
-            overflow: "hidden",
-            marginLeft: "0.3rem",
-          }}
-        />
+        <img className="circular-image" src="../Image/img1.jpg" />
         <span>user</span>
         <button className="btn">Logout</button>
       </div>

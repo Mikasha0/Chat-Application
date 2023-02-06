@@ -1,0 +1,39 @@
+
+.chats{
+    border-bottom: 1px solid gray;;
+    display: flex;
+    align-items: center;
+}
+.chats:hover{
+    background-color:black;
+    color: white;
+}
+.chats .userChat{
+    display:flex;
+    align-items:center;
+    padding:0.5rem 0;
+    cursor: pointer;
+}
+.chats .userChat:hover{
+    background-color:black;
+    color:white;
+    transition:0.5s;
+}
+.chats .userChat img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 0.3rem;
+}
+.chats .userChatInfo{
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+.chats .userChatInfo span{
+    font-size: 13px;
+    font-weight: 550;
+}
+.chats .userChatInfo p{
+    font-size: 12px;
+}

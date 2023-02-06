@@ -13,6 +13,13 @@
     padding-left: 0.4rem;
     color:crimson ;
 }
+.navbar .user .circular-image{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 0.3rem;
+}
 .navbar .user span{
     font-size:10px;
     padding-right: 0.4rem;

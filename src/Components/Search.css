@@ -1,4 +1,40 @@
-.searach .userChat{
-    width: 20px;
-    height: 20px;
+.search{
+    border-bottom: 1px solid gray;
+}
+.search .searchForm{
+    padding:10px;
+}
+.search .searchForm input{
+    background-color:#E6E6FA;
+    border:none;
+    outline: none;
+}
+.search .searchForm input::placeholder{
+    color:lightslategray;
+    font-size: 13px;
+}
+.search .userChat{
+    display:flex;
+    align-items:center;
+    padding:0.1rem 0;
+    cursor: pointer;
+}
+.search .userChat:hover{
+    background-color:black;
+    color:white;
+    transition:0.5s;
+}
+.search .userChat img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 0.3rem;
+}
+.search .userChatInfo{
+    margin-left: 0.5rem;
+}
+.search .userChatInfo span{
+    font-size: 13px;
+    font-weight: 550;
 }

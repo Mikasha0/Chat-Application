@@ -1,18 +1,15 @@
 import React from "react";
-import "./Search.css";
+import "./Chats.css";
 
-export default function Search() {
+export default function Chats() {
   return (
-    <div className="search">
-      <div className="searchForm">
-        <input type="text" placeholder="Find a user" />
-      </div>
+    <div className="chats">
       <div className="userChat">
         <img className="circular-image" src="../Image/img1.jpg" />
       </div>
       <div className="userChatInfo">
         <span>Abinash</span>
-        {/* <p>Let's chat</p> */}
+        <p>Let's chat</p>
       </div>
     </div>
   );
