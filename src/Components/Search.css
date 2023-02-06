@@ -1,6 +1,4 @@
-.search{
-    border-bottom: 1px solid gray;
-}
+
 .search .searchForm{
     padding:10px;
 }
@@ -31,9 +29,7 @@
     overflow: hidden;
     margin-left: 0.3rem;
 }
-.search .userChatInfo{
-    margin-left: 0.5rem;
-}
+
 .search .userChatInfo span{
     font-size: 13px;
     font-weight: 550;

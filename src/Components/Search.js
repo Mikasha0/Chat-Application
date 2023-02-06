@@ -7,12 +7,14 @@ export default function Search() {
       <div className="searchForm">
         <input type="text" placeholder="Find a user" />
       </div>
-      <div className="userChat">
-        <img className="circular-image" src="../Image/img1.jpg" />
-      </div>
-      <div className="userChatInfo">
-        <span>Abinash</span>
-        {/* <p>Let's chat</p> */}
+      <div className="chats">
+        <div className="userChat">
+          <img className="circular-image" src="../Image/img1.jpg" alt="..." />
+        </div>
+        <div className="userChatInfo">
+          <span>Abinash</span>
+          {/* <p>Let's chat</p> */}
+        </div>
       </div>
     </div>
   );

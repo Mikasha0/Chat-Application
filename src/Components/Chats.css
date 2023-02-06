@@ -1,8 +1,8 @@
-
 .chats{
     border-bottom: 1px solid gray;;
     display: flex;
     align-items: center;
+    gap:0.5rem;
 }
 .chats:hover{
     background-color:black;
@@ -27,13 +27,15 @@
     margin-left: 0.3rem;
 }
 .chats .userChatInfo{
-    margin-left: 0.5rem;
-    margin-top: 0.5rem;
+    /* margin-left: 0.5rem; */
+    /* margin-top: 0.6rem; */
+   
 }
-.chats .userChatInfo span{
+.chats .userChatInfo p:first-of-type{
     font-size: 13px;
     font-weight: 550;
 }
 .chats .userChatInfo p{
     font-size: 12px;
+    margin-bottom: 0;
 }
